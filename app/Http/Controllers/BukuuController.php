@@ -13,6 +13,7 @@ class BukuuController extends Controller
             "judul" => "Sirah Nabawiyah",
             "author" => "Ibrahim",
             "tahun" => 2015
+            
         ];
 
         return view('show-buku')-> with('judul', $buku[$id]);
